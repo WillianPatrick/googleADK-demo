@@ -1,0 +1,4 @@
+google-adk                # Toolkit de agentes
+litellm                   # Wrapper universal para LLMs – requerido por LiteLlm
+openai                    # Cliente oficial; LiteLLM delega mas mantemos explícito
+python-dotenv             # Carrega variáveis do .env

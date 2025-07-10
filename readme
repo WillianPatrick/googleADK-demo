@@ -1,0 +1,23 @@
+# Google ADK Demo
+
+Este repositório demonstra como construir agentes autônomos com o Google Agent Development Kit (ADK).
+
+## Funcionalidades
+
+- Agente Analista: realiza buscas e propõe soluções
+- Agente Executor: executa planos baseados nas análises
+- Uso explícito do modelo GPT-4 da OpenAI
+- Execução local usando Agent Engine
+
+## Requisitos
+
+- Python 3.11 ou superior
+- OpenAI API Key (GPT-4 ou GPT-3.5)
+- Acesso à internet
+
+## Instalação
+
+Clone este repositório e instale as dependências:
+
+```bash
+pip install -r requirements.txt

@@ -1,0 +1,13 @@
+services:
+  google-adk-sample:
+    build: .
+    env_file: .env            
+    ports:
+      - "8000:8000"
+    hostname: google-adk-sample
+    networks:
+      - local-network
+      
+networks:
+  local-network:
+    driver: bridge
